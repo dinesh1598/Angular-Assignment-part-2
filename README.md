@@ -13,6 +13,6 @@
 
 ![Screenshot from 2022-05-20 10-10-52](https://user-images.githubusercontent.com/101261835/169452248-e2036d8e-19f8-4f1b-a8a1-83a8e32f6a68.png)
 
-#401 page
+#Authorization Required
 
 ![Screenshot from 2022-05-20 10-11-06](https://user-images.githubusercontent.com/101261835/169452290-b74e829c-a4be-4585-b745-3066e838e761.png)
