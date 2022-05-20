@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "productid": "101",
+      "name": "Redmi",
+      "category": "Tv",
+      "price": "98000",
+      "serialnumber": "pny12rt",
+      "releasedate": "4-12-2021",
+      "stockunit": "12",
+      "description": "Limited stock"
+    },
+    
+
+    {
+      "productid": "103",
+      "name": "lenovo ",
+      "category": "Laptop",
+      "price": "45000",
+      "serialnumber": "456sdffg",
+      "releasedate": "2022-05-11",
+      "stockunit": "6",
+      "description": "Limited stock"
+    },
+    {
+      "productid": "poi9765",
+      "name": "samsung tv",
+      "category": "Tv",
+      "price": "60000",
+      "serialnumber": "poi798",
+      "releasedate": "2022-05-12",
+      "stockunit": "2",
+      "description": "rrr",
+      "id": 20
+    },
+    {
+      "productid": "fgh57888",
+      "name": "Mi 11",
+      "category": "Phone",
+      "price": "20000",
+      "serialnumber": "asddagg6kklll",
+      "releasedate": "2022-05-12",
+      "stockunit": "20",
+      "description": "yes"
+
+    },
+
+    {
+      "productid": "lk98723ggg",
+      "name": "Lenove thinkpad",
+      "category": "Laptop",
+      "price": "45000",
+      "serialnumber": "asd0099988s",
+      "releasedate": "2022-02-15",
+      "stockunit": "2",
+      "description": "available"
+
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "email": "dinesh@gmail.com",
+      "password": "Dinesh@123"
+    }
+
+  ]
+}
