@@ -1,0 +1,47 @@
+<!-- Section: Design Block -->
+<div class="login-container">
+  <div class="container" id="container">
+    <div class="form-container sign-in-container">
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <h1
+          style="color: linear-gradient(to right, #8360c3, #2ebf91)"
+          class="mb-2"
+        >
+          Login in
+        </h1>
+        <input
+          type="email"
+          formControlName="email"
+          placeholder="Email"
+          required
+        />
+        <span
+          *ngIf="email && email.invalid && email.touched"
+          style="color: red; font-size: 20px;width: 100%;text-align: left;"
+          >Email Not valid</span
+        >
+        <input
+          type="password"
+          formControlName="password"
+          placeholder="Password"
+          required
+        />
+        <span
+          *ngIf="password && password.invalid && password.touched"
+          style="color: red; font-size: 20px;width: 100%;text-align: left;"
+          >Password Not valid</span
+        >
+        <!-- <select name="" id="usertype" formControlName="type">
+                    <option value="user">User</option>
+                    <option value="admin">Admin</option>
+                </select> -->
+        <button [disabled]="loginForm.invalid" type="submit" class="mt-2">
+          Sign In
+        </button>
+      </form>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Section: Design Block -->
